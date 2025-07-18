@@ -37,7 +37,7 @@ This project is a **Streamlit-based AI application** that performs two key tasks
 
 ## 🧪 Installation and Setup
 
-### ✅ Prerequisites
+ #### ✅ Prerequisites
 - Python 3.8+
 - An OpenAI API Key ([Get one here](https://platform.openai.com/account/api-keys))
 
@@ -46,19 +46,19 @@ This project is a **Streamlit-based AI application** that performs two key tasks
 git clone https://github.com/Preethikgowda/Financial-Misinformation-Detection-System-.git
 cd Financial-Misinformation-Detection-System-
 ```
-###🔒 Create .env File for OpenAI Key
+### 🔒 Create .env File for OpenAI Key
 env
 ``` Python
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
-###📦 Install Dependencies
+### 📦 Install Dependencies
 Create a virtual environment (optional but recommended):
 ```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
 I
-###nstall required packages:
+### install required packages:
 
 ```bash
 pip install -r requirements.txt
@@ -74,7 +74,7 @@ streamlit run app.py
 The app will open in your default browser at:
 http://localhost:8501
 
-###🖥️ Project Structure
+### 🖥️ Project Structure
 
 📦 Financial-Misinformation-Detection-System-
 │
@@ -82,7 +82,9 @@ http://localhost:8501
 ├── .env                     # Environment file for API key
 ├── README.md                # Project documentation
 └── requirements.txt         # Python dependencies
-💡 Future Improvements
+
+### 💡 Future Improvements
+
 Add caching for faster performance
 
 Pre-train and store ML models for instant prediction
@@ -94,9 +96,8 @@ Add model evaluation metrics (R², MAE, etc.)
 Use real-time news APIs to feed the LLM
 
 🙋‍♀️ Author
-Preethi Gowda
-B.Tech Computer Science Student | AI/ML Enthusiast
-LinkedIn • GitHub
+Preethi T K
+Preethikgowda26@gmail.com
 
 📄 License
 This project is for educational and research purposes only.
