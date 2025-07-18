@@ -35,9 +35,9 @@ This project is a **Streamlit-based AI application** that performs two key tasks
 
 ---
 
-## 🧪 Installation and Setup
+#### 🧪 Installation and Setup
 
- #### ✅ Prerequisites
+ ### ✅ Prerequisites
 - Python 3.8+
 - An OpenAI API Key ([Get one here](https://platform.openai.com/account/api-keys))
 
@@ -57,13 +57,8 @@ Create a virtual environment (optional but recommended):
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```
-I
 ### install required packages:
 
-```bash
-pip install -r requirements.txt
-```
-###If you don’t have a requirements.txt, use:
 ```
 pip install streamlit openai yfinance numpy keras scikit-learn xgboost python-dotenv
 ```
@@ -95,10 +90,10 @@ Add model evaluation metrics (R², MAE, etc.)
 
 Use real-time news APIs to feed the LLM
 
-🙋‍♀️ Author
+### 🙋‍♀️ Author
 Preethi T K
 Preethikgowda26@gmail.com
 
-📄 License
+### 📄 License
 This project is for educational and research purposes only.
 Make sure to independently verify any financial predictions before making decisions.
